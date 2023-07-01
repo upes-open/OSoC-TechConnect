@@ -1,8 +1,8 @@
-# OSoC-ByteExchange
+# OSoC-TechConnect
 
 <div align='center'>
 
-## ByteExchange
+## TechConnect
 
 <img src='https://github.com/upes-open/Git-WorkShop/assets/101355193/b9315c8e-5aaa-438e-ab5a-48b25571dc90' width=100>
 
@@ -20,7 +20,7 @@
 </div>
 
 ### About the Project
- This is a web-based platform that serves as a centralised hub for all computer science-related information in the college. It provides a comprehensive and inclusive space for students, faculty, and tech chapters to access, share, and collaborate on various computer science-related content. The platform features a feed-like system where chapters can share updates, students can publish technical blogs, and recently published research papers are showcased. By incentivizing users to reach a larger audience, ByteExchange aims to make computer science-related opportunities easily accessible. 
+ This is a web-based platform that serves as a centralised hub for all computer science-related information in the college. It provides a comprehensive and inclusive space for students, faculty, and tech chapters to access, share, and collaborate on various computer science-related content. The platform features a feed-like system where chapters can share updates, students can publish technical blogs, and recently published research papers are showcased. By incentivizing users to reach a larger audience,TechConnect aims to make computer science-related opportunities easily accessible. 
 
 ### Tech Stack 
 
