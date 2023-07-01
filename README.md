@@ -22,25 +22,11 @@
 ### About the Project
  This is a web-based platform that serves as a centralised hub for all computer science-related information in the college. It provides a comprehensive and inclusive space for students, faculty, and tech chapters to access, share, and collaborate on various computer science-related content. The platform features a feed-like system where chapters can share updates, students can publish technical blogs, and recently published research papers are showcased. By incentivizing users to reach a larger audience, ByteExchange aims to make computer science-related opportunities easily accessible. 
 
-### Tech Stack
+### Tech Stack 
 
 
 
-HTML: ![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26)
-
-JS: ![Static Badge](https://img.shields.io/badge/JavaScript-101010?logo=javascript&logoColor=%23F7DF1E)
-
-CSS: ![Static Badge](https://img.shields.io/badge/CSS-202020?logo=css3&logoColor=%231572B6)
-
-Python: ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB)
-
-Django: ![Static Badge](https://img.shields.io/badge/Django-FFFFFF?logo=django&logoColor=%23092E20)
-
-postgreSQL: ![Static Badge](https://img.shields.io/badge/PostgreSQL-F4F4F4?logo=postgresql&logoColor=%234169E1)
-
-mysql: ![Static Badge](https://img.shields.io/badge/MySQL-101010?logo=mysql&logoColor=%234479A1)
-
-aws s3: ![Static Badge](https://img.shields.io/badge/Amazon%20S3-101010?logo=amazons3&logoColor=%23569A31)
+![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26)   ![Static Badge](https://img.shields.io/badge/JavaScript-101010?logo=javascript&logoColor=%23F7DF1E)   ![Static Badge](https://img.shields.io/badge/CSS-202020?logo=css3&logoColor=%231572B6)   ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB)   ![Static Badge](https://img.shields.io/badge/Django-FFFFFF?logo=django&logoColor=%23092E20)   ![Static Badge](https://img.shields.io/badge/PostgreSQL-F4F4F4?logo=postgresql&logoColor=%234169E1)   ![Static Badge](https://img.shields.io/badge/MySQL-101010?logo=mysql&logoColor=%234479A1)   ![Static Badge](https://img.shields.io/badge/Amazon%20S3-101010?logo=amazons3&logoColor=%23569A31)
 
 
 ### Contributing
