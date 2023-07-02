@@ -34,7 +34,7 @@
 
 > * Fork and Star the project.
 >
-> Clone the repo on your local machine.
+> * Clone the repo on your local machine.
 >
 bash
 git clone https://github.com/upes-open/OSoC-bio.lnk.git
