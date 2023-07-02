@@ -49,8 +49,8 @@ git checkout -b <GitHub_usename>
 > * Go to the issues tab and comment on a suitable issue of your choice and wait for the issue to be assigned to you.
 >
 > * Make the changes in your local repo and push the changes.
-
-Wait for the PR to be reviewed and merged.
+>
+> * Wait for the PR to be reviewed and merged.
 
 Happy Coding!
 
