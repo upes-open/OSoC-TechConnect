@@ -37,7 +37,7 @@
 > * Clone the repo on your local machine.
 >
 bash
-git clone https://github.com/upes-open/OSoC-bio.lnk.git
+git clone https://github.com/upes-open/OSoC-TechConnect.git
 
 >
 > * Create a new branch `<Your_GitHub_username>`
