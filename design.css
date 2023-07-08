@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    cursor: default;
+    /* background-color: #ffa9001c;
+    background-color: #00000012; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5vh;
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#left a{
+    display: flex;
+    align-items: center;
+    color: #93ad2c;
+    font-weight: bold;
+    /* font-family:"Kryptic LP W00 Regular"; */
+    font-family: 'Share Tech', sans-serif;
+    text-decoration: none;
+
+}
+#right img{
+    width: 7.2%;
+}
+#left
+{
+    padding-left: 1vw;
+    display: flex;
+    font-size: 2.0vw;
+    align-items: center;
+}
+#right{
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+#right ul{
+    font-family: 'Share Tech', sans-serif;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+}
+#right ul a{
+    color: rgb(0, 0, 0);
+    margin: 1em 1em 1em 0.5em;
+    background-image: linear-gradient(to right bottom, #D3F935,#daec8e);
+    /* border: 2px solid blue; */
+    border-radius: 0.7em;
+    box-shadow: 0.6vw 0.8vw 0.7vw -0.5vw #888888;
+    text-decoration: none;
+    padding:0.4em 2.3em;
+    font-size: 1.6vw;
+    /* align-items: center; */
+    /* size: 230px; */
+}
+#right ul a:hover{
+    background-image: linear-gradient(to right bottom, #e8f99d,#ccf722);
+    scale: 1.06;
+}
+.navbar div{
+    display: inline-block;
+}
+#heading{
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Share Tech', sans-serif; */
+    font-family:"Kryptic LP W00 Regular" !important;
+    font-size:6vw;
+    text-transform:uppercase ;
+}
+#line1{
+    margin-top: 3vh;
+    width: 38vw;
+    background-color: black;
+    height: 0.15vh;
+}
+#boxes{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:black;
+}
+.cards{
+    align-items: center;
+    width: 25vw;
+    box-sizing:content-box;
+    min-height: fit-content;
+    padding-bottom: 2vh;
+    /* min-width: 33vh; */
+    /* height: 38vh; */
+    display: flex;
+    border-radius: 0.7em;
+    box-shadow: 1vw 1vw 0.7vw -0.5vw #888888;
+    flex-direction: column;
+    /* background-color: rgb(140, 83, 193); */
+    /* background-image: linear-gradient(red, yellow); */
+    /* overflow: scroll; */
+    
+}
+.cards h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 2.2vw;
+}
+#card1{
+    background-image: linear-gradient(rgb(62, 167,207 ), #B9E6FD);
+}
+#card3{
+    background-image: linear-gradient(#74e37f,#c2ef60 );
+}
+#card2{
+    background-image: linear-gradient(#FE7A7C, #FFCD54);
+}
+/* .cards::-webkit-scrollbar {
+    display: none;
+  } */
+.cards a{
+    color:  rgba(245, 245, 245, 0.877);
+    text-decoration: none;
+    /* border: 2px solid black; */
+    border-radius: 0.7em;
+    background-color:#1F3E75;
+    padding: 10px 30px;
+}
+.cards a:hover{
+    background-color: #192f57;
+    /* scale: 1.1; */
+}
+.cards p{
+    margin-top: 0px;
+    text-align: center;
+    color:#607655;
+    padding: 0vw 1vw;
+    
+}
+footer{
+    background-image: linear-gradient(to right bottom,#a1753e,#f4cc8e);
+    background-image: linear-gradient(to right bottom,#aca0a0,#5a505033);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    bottom: 0px;
+}
+footer:hover i{
+    scale: 1.3;
+}
