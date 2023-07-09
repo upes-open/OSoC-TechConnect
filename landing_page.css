@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     cursor: default;
+    /* height: 200px; */
     /* background-color: #ffa9001c;
     background-color: #00000012; */
 }
@@ -52,7 +53,8 @@ header{
 }
 #right ul a{
     
-    font-family: "Oceanwide" !important;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
     color: rgb(0, 0, 0);
     margin: 1em 1em 1em 0.5em;
     display: flex;
@@ -61,7 +63,7 @@ header{
     border-radius: 0.7em;
     box-shadow: 0.6vw 0.8vw 0.7vw -0.5vw #888888;
     text-decoration: none;
-    min-width: 12vw;
+    min-width: 7vw;
     padding:1vh 2vw;
     font-size: 1.3vw;
     justify-content: center;
@@ -100,7 +102,8 @@ header{
     color:black;
 }
 .cards{
-    font-family: "Oceanwide Semibold" !important;
+    
+    font-family: 'Outfit', sans-serif;
     align-items: center;
     width: 27vw;
     box-sizing:content-box;
@@ -112,31 +115,33 @@ header{
     border-radius: 0.7em;
     box-shadow: 1vw 1vw 0.7vw -0.5vw #888888;
     flex-direction: column;
-    margin-top: 7vh;
+    margin-bottom: 7vh;
     /* background-color: rgb(140, 83, 193); */
     /* background-image: linear-gradient(red, yellow); */
     /* overflow: scroll; */
     
 }
 .cards h1{
+    font-family: 'Outfit', sans-serif;
     /* font-family: 'Share Tech', sans-serif; */
-    font-weight: 300 !important;
-    font-size: 2.2vw;
+    font-size: 2.3vw;
+    font-weight: bolder;
 }
 #card1{
-    background-image: linear-gradient(rgb(62, 167,207 ), #B9E6FD);
+    background-image: linear-gradient(#FE7A7C, #FFCD54);
 }
 #card3{
     background-image: linear-gradient(#74e37f,#c2ef60 );
 }
 #card2{
-    background-image: linear-gradient(#FE7A7C, #FFCD54);
+    background-image: linear-gradient(rgb(62, 167,207 ), #B9E6FD);
 }
 /* .cards::-webkit-scrollbar {
     display: none;
   } */
 .cards a{
-    font-family: "Oceanwide Semibold" !important;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
     color:  rgba(245, 245, 245, 0.877);
     text-decoration: none;
     /* border: 2px solid black; */
@@ -162,7 +167,7 @@ footer{
     /* background-image: linear-gradient(to right bottom,#a1753e,#f4cc8e); */
     /* background-image: linear-gradient(to right bottom,#aca0a0,#5a505033); */
     background-color:#EBFF9E ;
-    position: relative;
+    position: absolute;
     color: #2A3700;
     bottom: 0px;
     display: flex;
@@ -171,6 +176,8 @@ footer{
     width: 100%;
     font-weight: bold;
     justify-content: center;
+    
+    font-family: 'Outfit', sans-serif;
 }
 footer:hover i{
     scale: 1.3;
@@ -191,15 +198,19 @@ footer:hover i{
     }
     .cards h1{
         font-size: 3.8vw;
+        /* font-weight: 900; */
     }
     footer{
         margin-top: 40px;
+        position: relative;
     }
     #right ul a{
+        display: flex;
         align-items: center;
-        width: 18vw;
-        height: 2vh;
-        font-size: 2.4vw;
+        width: 16vw;
+        height: 2.8vh;
+        font-size: 2.1vw;
+        /* font-weight: ; */
     }
     #right img{
         width: 10%;
@@ -208,6 +219,7 @@ footer:hover i{
         width: 11vw;
     }
     #heading{
+        font-size: 6vw;
         margin-top:6vh ;
         margin-bottom: 0vh;
         padding-bottom: 0vh;
