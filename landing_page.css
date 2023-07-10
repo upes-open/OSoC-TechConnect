@@ -65,7 +65,7 @@ header{
     text-decoration: none;
     min-width: 7vw;
     padding:1vh 2vw;
-    font-size: 1.3vw;
+    font-size: 1.7vw;
     justify-content: center;
     /* size: 230px; */
 }
@@ -77,14 +77,14 @@ header{
     display: inline-block;
 }
 #heading{
-    margin-top: 3.2vh;
+    margin-top: 3.0vh;
     display: flex;
     justify-content: center;
     align-items: end;
     /* font-family: 'Roboto Slab', serif; */
     /* font-family: 'Share Tech', sans-serif; */
     font-family:"Kryptic LP W00 Regular" !important;
-    font-size:5vw;
+    font-size:5.7vw;
     text-transform:uppercase ;
 }
 #line1{
@@ -115,7 +115,7 @@ header{
     border-radius: 0.7em;
     box-shadow: 1vw 1vw 0.7vw -0.5vw #888888;
     flex-direction: column;
-    margin-bottom: 7vh;
+    margin-bottom: 8.5vh;
     /* background-color: rgb(140, 83, 193); */
     /* background-image: linear-gradient(red, yellow); */
     /* overflow: scroll; */
@@ -124,7 +124,8 @@ header{
 .cards h1{
     font-family: 'Outfit', sans-serif;
     /* font-family: 'Share Tech', sans-serif; */
-    font-size: 2.3vw;
+    font-size: 2.7vw;
+    margin: 2.5vh;
     font-weight: bolder;
 }
 #card1{
@@ -192,12 +193,16 @@ footer:hover i{
         margin: 4vh 0vh;
         /* margin-top: 1vh; */
     }
+    #card1{
+        margin-top: -3vh;
+    }
     .cards p{
         margin: 0vw 5vw;
         margin-bottom: 2vw;
     }
     .cards h1{
-        font-size: 3.8vw;
+        font-size: 4.4vw;
+        margin: 2.4vh;
         /* font-weight: 900; */
     }
     footer{
@@ -207,9 +212,9 @@ footer:hover i{
     #right ul a{
         display: flex;
         align-items: center;
-        width: 16vw;
-        height: 2.8vh;
-        font-size: 2.1vw;
+        width: 11vw;
+        height: 3.0vh;
+        font-size: 2.35vw;
         /* font-weight: ; */
     }
     #right img{
@@ -219,9 +224,29 @@ footer:hover i{
         width: 11vw;
     }
     #heading{
-        font-size: 6vw;
+        font-size: 6.5vw;
         margin-top:6vh ;
         margin-bottom: 0vh;
         padding-bottom: 0vh;
     }
+}
+@media screen and (max-width:750px) and (min-width:400px)
+{
+    #right ul a{
+        font-size: 2.7vw;
+    }
+    #right img{
+        width: 13%;
+    }
+    #left a img{
+        width: 14vw;
+    }
+    #heading{
+        font-size: 7.0vw;
+    }
+    .cards h1{
+        font-size: 6vw;
+        margin: 2.8vh;
+    }
+    
 }
