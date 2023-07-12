@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    cursor: default;
+    /* height: 200px; */
+    /* background-color: #ffa9001c;
+    background-color: #00000012; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.0vh;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#left a{
+    display: flex;
+    padding-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: #93ad2c; */
+    /* font-weight: bold; */
+    /* font-family:"Kryptic LP W00 Regular"; */
+    /* font-family: 'Share Tech', sans-serif; */
+    /* text-decoration: none; */
+
+}
+#left{
+    display: flex;
+    align-items: center;
+
+}
+#left h2{
+    font-family:"Kryptic LP W00 Regular";
+    font-size: 1.2vw;
+}
+#left a img{
+    width: 5.5vw;
+}
+#right img{
+    margin-top: 1vh;
+    margin-right: 1vw;
+    width: 7.0%;
+}
+/* #left
+{
+    /* padding-left: 1vw; */
+    /* display: flex; */
+    /* font-size: 2.0vw; */
+    /* align-items: center; */
+/* } */
+#right{
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+/* #content{
+    border: 2px solid blue;
+} */
+.navbar2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0vh;
+}
+.navbar2 ul{
+    display: flex;
+    list-style-type: none;
+    /* border:2px  solid grey; */
+}
+.navbar2 ul a{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid grey; */
+    /* border-radius: 1vw; */
+    padding: 1vh 2.5vw ;
+    font-size: 1.4vw;
+    background-color: #DCF9BF;
+
+
+}
+.navbar2 ul a li{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+.navbar2 ul a:active{
+    border-radius: 0.6vw;
+    scale: 1.03;
+    box-shadow: 0vw 0.5vw 0.4vw -0.3vw #888888;
+}
+#item1{
+    border-top-left-radius:0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-right: 0.5px solid #C6E1AC;
+}
+#item3{
+    border-top-right-radius:0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    border-left: 0.5px solid #C6E1AC;
+}
+#item1:active{
+    background-image: linear-gradient(#FE7A7C, #FFCD54);
+}
+#item2:active{
+    background-image: linear-gradient(#74e37f,#c2ef60 );
+}
+#item3:active{
+    background-image: linear-gradient(rgb(62, 167,207 ), #B9E6FD);
+}
+.navbar2 ul a:hover{
+    background-color: #c2e0a4;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+#image{
+    display: flex;
+    width: 29vw;
+    /* border: 2px solid red; */
+    /* margin: 0vh 5vw; */
+    margin-right: 1vw;
+}
+/* #image img{
+    margin-left: 7vw;
+} */
+#form form{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 28vw;
+    height: fit-content;
+    border-radius: 1vw;
+    background-image: linear-gradient(to right,#FFCD54,#fe7a7c,#FFCD54);
+    /* justify-content: space-around; */
+    padding-bottom: 2vh;
+    /* margin-left: 14.2vw; */
+    /* margin: 0vh 4vw; */
+    /* margin-left: 8vh; */
+}
+#form form h1{
+    font-size: 1.8vw;
+    padding: 0px;
+    margin: 0.8vh 0vh;
+    margin-top: 2vh;
+}
+#form form input{
+    font-family: 'Outfit', sans-serif;
+    width: 83%;
+    border: none;
+    border-radius: 0.4vw;
+    font-weight: bold;
+    min-height: 3.7vh;
+    margin: 0.5vw;
+    padding: 1vh 1vw;
+}
+form input:active{
+    border: none;
+}
+form a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    background-color: #1E3C72;
+    margin-top: 1.4vh;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    width:12% ;
+    padding: 0.5vh 1.2vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+
+    text-align: center;
+    min-height: 4vh;
+}
+form a:hover{
+    background-color: #1d335c;
+
+}
+#calender{
+    width: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-left: 10vh; */
+}
+footer{
+    /* background-image: linear-gradient(to right bottom,#a1753e,#f4cc8e); */
+    /* background-image: linear-gradient(to right bottom,#aca0a0,#5a505033); */
+    background-color:#EBFF9E ;
+    position:absolute;
+    color: #2A3700;
+    bottom: 0px;
+    display: flex;
+    /* align-items: end; */
+    margin-top: 5vh;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    
+    font-family: 'Outfit', sans-serif;
+}
+footer:hover i{
+    scale: 1.3;
+}
+
+@media screen and (max-width:1200px)
+{
+    #left a img{
+        width: 7.5vw;
+    }
+    #left h2{
+        font-size: 1.7vw;
+    }
+    #right img{
+        margin-top: 2.2vh;
+        margin-right: 1vw;
+        width: 10.0%;
+    }
+    .navbar2 ul a{
+        font-size: 2vw;
+    }
+    #content{
+        justify-content: space-around;
+    }
+    #image{
+        width: 23vw;
+        margin-left: 5vw;
+    }
+    #image img{
+        width: 100%;
+    }
+    #form form{
+        width: 33vw;
+        margin-left: 1vw;
+    }
+    #form form h1{
+        font-size: 2.7vw;
+    }
+    #form form a{
+        font-size: 2.0vw;
+        padding: 0.5vh 2vw;
+    }
+}
+@media screen and (max-width:800px)
+{
+    #left a img{
+        width: 15vw;
+    }
+    #left h2{
+        font-size: 2.8vw;
+    }
+    #right img{
+        margin-top: 1.2vh;
+        margin-right: 1vw;
+        width: 25.0%;
+    }
+    .navbar2 ul a{
+        font-size: 3.2vw;
+        /* padding: 0.7vh 1.8vw; */
+    }
+    #image {
+        display: none;
+    }
+    #content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar2{
+        justify-content: center;
+        padding-right: 0vw;
+    }
+    #form form{
+        width: 60vw;
+        margin-left: 5vw;
+    }
+    #form form h1{
+        font-size: 4.0vw;
+        margin: 2vh 0vw;
+    }
+    #form form a{
+        font-size: 3.5vw;
+        padding: 0.5vh 3vw;
+        border-radius: 3.5vw;
+    }
+    #form form input{
+        font-size: 2.2vw;
+    }
+    #calender{
+        height: 25vh;
+        width: 50vw;
+        /* border: 2px solid red; */
+        margin-top: 5vh;
+    }
+    footer{
+        position: relative;
+        /* margin-top: 70vh; */
+    }
+}
