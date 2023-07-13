@@ -84,7 +84,7 @@ header{
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
 }
-.navbar2 ul a:active{
+.navbar2 ul a:active,#item1{
     border-radius: 0.6vw;
     scale: 1.03;
     box-shadow: 0vw 0.5vw 0.4vw -0.3vw #888888;
@@ -93,15 +93,15 @@ header{
     border-top-left-radius:0.6vw;
     border-bottom-left-radius: 0.6vw;
     border-right: 0.5px solid #C6E1AC;
+    background-image: linear-gradient(#FE7A7C, #FFCD54);
 }
 #item3{
     border-top-right-radius:0.6vw;
     border-bottom-right-radius: 0.6vw;
     border-left: 0.5px solid #C6E1AC;
 }
-#item1:active{
-    background-image: linear-gradient(#FE7A7C, #FFCD54);
-}
+/* #item1:active{
+} */
 #item2:active{
     background-image: linear-gradient(#74e37f,#c2ef60 );
 }
