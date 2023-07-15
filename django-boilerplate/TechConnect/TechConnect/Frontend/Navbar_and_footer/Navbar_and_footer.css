@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    cursor: default;
+    /* height: 200px; */
+    /* background-color: #ffa9001c;
+    background-color: #00000012; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 0vh;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#left a{
+    display: flex;
+    padding-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: #93ad2c; */
+    /* font-weight: bold; */
+    /* font-family:"Kryptic LP W00 Regular"; */
+    /* font-family: 'Share Tech', sans-serif; */
+    /* text-decoration: none; */
+
+}
+#left{
+    display: flex;
+    align-items: center;
+
+}
+#left h2{
+    font-family:"Kryptic LP W00 Regular";
+    font-size: 1.2vw;
+}
+#left a img{
+    width: 7.0vw;
+}
+#right img{
+    margin-top: 1vh;
+    margin-right: 1vw;
+    width: 9.0%;
+}
+/* #left
+{
+    /* padding-left: 1vw; */
+    /* display: flex; */
+    /* font-size: 2.0vw; */
+    /* align-items: center; */
+/* } */
+#right{
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+footer{
+    /* background-image: linear-gradient(to right bottom,#a1753e,#f4cc8e); */
+    /* background-image: linear-gradient(to right bottom,#aca0a0,#5a505033); */
+    background-color:#EBFF9E ;
+    position:absolute;
+    color: #2A3700;
+    bottom: 0px;
+    display: flex;
+    /* align-items: end; */
+    margin-top: 5vh;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    
+    font-family: 'Outfit', sans-serif;
+}
+footer:hover i{
+    scale: 1.3;
+}
+
+@media screen and (max-width:1200px)
+{
+    header{
+        margin-top: -1vh;
+    }
+    #left a img{
+        width: 9vw;
+    }
+    #left h2{
+        font-size: 1.8vw;
+    }
+    #right img{
+        margin-top: 2.0vh;
+        margin-right: 0.6vw;
+        width: 11.0%;
+    }
+    
+}
+@media screen and (max-width:800px)
+{
+    #left a img{
+        width: 12vw;
+    }
+    #left h2{
+        font-size: 2.4vw;
+    }
+    #right img{
+        margin-top: 1.2vh;
+        margin-right: 1vw;
+        width: 19.0%;
+    }
+    /* footer{
+        position: relative;
+        margin-top: 70vh;
+    } */
+}
