@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 10%;
+    }
+
+    .navbar {
+      background-color: #a6e4b1;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: #b9e896;
+    }
+
+    .navbar .active {
+      background-color: #b0ee59;
+    }
+
+    .card {
+      background: linear-gradient(to right, #b9e896, #4ad2a7);
+      width: 300px;
+      padding: 12%;
+      border-radius: 10px;
+      margin-top: 50px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card input[type="text"],
+    .card textarea {
+      width: 90%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .card input[type="text"]::placeholder,
+    .card textarea::placeholder {
+      color: #888;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      background-color: #283e58;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      font-size: 16px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .card button:hover {
+      background-color: #1e2e40;
+    }
+
+    .heading {
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .image-above-navbar {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .image-on-left {
+      margin-right: 10px;
+    }
+
+    .cards-container {
+    display: flex;
+    justify-content:flex-start ;
+    align-items: flex-start;
+  }
+  </style>
+</head>
+<body>
+  <div class="image-above-navbar">
+    <img src="navbar.png" alt="Image Above Navbar" class="image-on-left">
+  </div>
+  <div class="navbar">
+    <a href="#" >Chapter</a>
+    <a href="#" >Blogs</a>
+    <a href="#" class="active">Opportunities</a>
+  </div>
+  <div class="cards-container">
+  <img src="laptop.png" alt="Image on Left of Card" class="image-on-left">
+  <div class="card-container">
+    <div class="card">
+      <div class="heading">Post an Opportunity</div>
+      <input type="text" placeholder="Title">
+      <input type="text" placeholder="Key Details">
+      <textarea placeholder="Description"></textarea>
+      <button type="submit">Post</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
