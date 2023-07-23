@@ -1,0 +1,67 @@
+{% load static %} 
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link the CSS file using Django's static template tag -->
+    <link rel="stylesheet" href="{% static 'landingpage/css/landing_page.css' %}">
+    <!-- Your other CSS links here -->
+
+    <!-- Your font links here -->
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="left">
+                <!-- Replace 'logo1.png' with the correct path -->
+                <a href="#"><img src="{% static 'landingpage/images/logo1.png' %}" alt=""></a>
+            </div>
+
+            <div id="right">
+                <ul>
+                    <a href=""><li id="value-1">Login</li></a>
+                    <a href=""><li id="value-2">Signup</li></a>
+                </ul>
+                <!-- Replace 'logo2.png' with the correct path -->
+                <img src="{% static 'landingpage/images/logo2.png' %}" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <section id="heading">
+        TechConnect
+    </section>
+
+    <hr id="line1">
+
+    <section id="boxes">
+
+        <div id="card1" class="cards">
+            <h1>Chapter</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis natus et nihil repellendus fugit facilis! Quae rem dolorem optio Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing!</p>
+            <a href="{% url 'chapter_page' %}">Know More</a>
+        </div>
+
+        <div id="card2" class="cards">
+            <h1>Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis natus et nihil repellendus fugit facilis! Quae rem dolorem optio Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing!</p>
+            <a href="{% url 'sendblog_page' %}">Know More</a>
+        </div>
+
+        <div id="card3" class="cards">
+            <h1>Opportunities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis natus et nihil repellendus fugit facilis! Quae rem dolorem optio Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing!</p>
+            <a href="{% url 'oppor_page' %}">Know More</a>
+        </div>
+
+    </section>
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart" style="color: #e41111;"></i> with OSoC</p>
+    </footer>
+</body>
+</html>
