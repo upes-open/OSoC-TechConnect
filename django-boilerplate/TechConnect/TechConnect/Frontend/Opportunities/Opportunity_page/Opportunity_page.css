@@ -121,6 +121,7 @@ header{
 #item3{
     border-top-right-radius:0.6vw;
     border-bottom-right-radius: 0.6vw;
+    
     border-left: 0.5px solid #C6E1AC;
 }
 #item1:active{
