@@ -27,6 +27,13 @@ urlpatterns = [
     path('opportunities/', views.opportunities_page_view, name='oppor_page'),
     path('sendblog/', views.send_blog_view, name='sendblog_page'),
     path('publishblog/', views.publish_blog_view, name='publishblog_page'),
+
+    path('publishpage/', views.blog_publish_page_view, name='blog_publish_page'),
+    path('submitpage/', views.blog_submit_page_view, name='blog_submit_page'),
+    path('chapterclubs/', views.chapters_and_clubs_view, name='chapterclubs'),
+    path('opportunitiespage/', views.opportunity_page_view, name='opportunities_page'),
+
+
     # path('', views.index, name='index'),
     path('sign_in_status', views.index, name='status'),
     path('token_details', views.token_details, name='token_details'),

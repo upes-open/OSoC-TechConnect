@@ -3,4 +3,7 @@ Django==4.2.3
 sqlparse==0.4.4
 tzdata==2023.3
 requests
+pymongo==3.12.3
+djongo
+pytz
 git+https://github.com/azure-samples/ms-identity-python-utilities@main
