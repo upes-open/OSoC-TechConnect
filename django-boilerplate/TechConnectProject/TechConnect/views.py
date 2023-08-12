@@ -77,3 +77,22 @@ def publish_blog_view(request):
         form = BlogPublicationForm()
     
     return render(request, 'blog/publish_blog/Form_to_publish_blog.html', {'form': form})
+
+def blog_publish_page_view(request):
+    return render(request, 'blog/Blog_and_publications_page_to_publish/Blog_and_publications_page_to_publish.html')
+
+def blog_submit_page_view(request):
+    return render(request, 'blog/Blog_and_publications_page_to_submit/Blog_and_publications_page_to_submit.html')
+
+def chapters_and_clubs_view(request):
+    return render(request, 'chapter/Chapters_and_clubs/Chapters_and_clubs.html')
+
+def opportunity_page_view(request):
+    return render(request, 'opportunities/Opportunity_page/Opportunity_page.html')
+
+
+
+
+
+
+

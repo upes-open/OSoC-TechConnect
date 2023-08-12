@@ -29,7 +29,7 @@
     <header>
         <nav class="navbar">
             <div id="left">
-                <a href="#"><img src="{% static 'blog/publish_blog/images/logo1.png' %}" alt=""></a>
+                <a href="{% url 'landing_page' %}"><img src="{% static 'blog/publish_blog/images/logo1.png' %}" alt=""></a>
                 <h2>TECHCONNECT</h2>
             </div>
 
@@ -43,9 +43,9 @@
     </header>
     <nav class="navbar2">
         <ul>
-            <a href="" id="item1"><li >Chapters</li></a>
-            <a href="" id="item2"><li >Blogs</li></a>
-            <a href="" id="item3"><li>Opportunities</li></a>
+            <a href="{% url 'chapterclubs' %}" id="item1"><li >Chapters</li></a>
+            <a href="{% url 'blog_publish_page' %}" id="item2"><li >Blogs</li></a>
+            <a href="{% url 'opportunities_page' %}" id="item3"><li>Opportunities</li></a>
         </ul>
     </nav>
     <section id="content">

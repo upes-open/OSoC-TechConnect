@@ -70,7 +70,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'ENFORCE_SCHEMA': False,  # Set to True if you want to enforce a schema (optional)
         'CLIENT': {
-            'host': 'mongodb+srv://rohin:admin@cluster0.kv3yklv.mongodb.net/',  # Replace with your MongoDB URI
+            'host': 'mongodb+srv://test:test@cluster0.kv3yklv.mongodb.net/test?authSource=admin&replicaSet=atlas-pog1cl-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true',  # Replace with your MongoDB URI
         },
         'NAME': 'TechConnect',  # Replace with your MongoDB database name
     }
